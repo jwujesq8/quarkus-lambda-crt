@@ -1,0 +1,417 @@
+/Users/lena/.sdkman/src/sdkman-path-helpers.sh: line 61: ${candidate_name^^}: bad substitution
+/Users/lena/.sdkman/src/sdkman-path-helpers.sh: line 61: ${candidate_name^^}: bad substitution
+Initialized native services in: /Users/lena/.gradle/native
+Initialized jansi services in: /Users/lena/.gradle/native
+Found daemon DaemonInfo{pid=2490, address=[3c9426c0-0057-4000-be4c-1f957a183c82 port:49454, addresses:[/127.0.0.1]], state=Idle, lastBusy=1792577665711, context=DefaultDaemonContext[uid=2a1cfedb-8b0a-42fd-b4bb-20a88a265328,javaHome=/Users/lena/.sdkman/candidates/java/25-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=2490,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/lena/.sdkman/candidates/java/25.0.2-graalce (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=PL, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=2a1cfedb-8b0a-42fd-b4bb-20a88a265328,javaHome=/Users/lena/.sdkman/candidates/java/25-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=2490,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=8920, address=[874a9c80-1d28-4fdb-bbd8-976a4697dac5 port:50101, addresses:[/127.0.0.1]], state=Idle, lastBusy=1792571295405, context=DefaultDaemonContext[uid=f67d371a-e8c7-47d2-97de-9b3515844af4,javaHome=/Users/lena/.sdkman/candidates/java/25.0.2-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=8920,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2g,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/lena/.sdkman/candidates/java/25.0.2-graalce (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=PL, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=f67d371a-e8c7-47d2-97de-9b3515844af4,javaHome=/Users/lena/.sdkman/candidates/java/25.0.2-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=8920,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2g,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=10356, address=[58773442-ab85-4232-b24c-7db0e8b703f2 port:50252, addresses:[/127.0.0.1]], state=Idle, lastBusy=1792576464890, context=DefaultDaemonContext[uid=21e97970-9429-4bea-9572-d0f84586f07d,javaHome=/Users/lena/.sdkman/candidates/java/25-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=10356,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2g,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/lena/.sdkman/candidates/java/25.0.2-graalce (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=PL, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=21e97970-9429-4bea-9572-d0f84586f07d,javaHome=/Users/lena/.sdkman/candidates/java/25-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=10356,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2g,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=12481, address=[559cc16d-ceac-4ba8-a755-8f682913ab83 port:50458, addresses:[/127.0.0.1]], state=Idle, lastBusy=1792577115463, context=DefaultDaemonContext[uid=5fe73686-dba3-4922-b093-efd53e945d6c,javaHome=/Users/lena/.sdkman/candidates/java/25.0.2-graalce,javaVersion=25,javaVendor=GraalVM Community,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=12481,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2g,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+At least one daemon option is different.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/lena/.sdkman/candidates/java/25.0.2-graalce (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=PL, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=5fe73686-dba3-4922-b093-efd53e945d6c,javaHome=/Users/lena/.sdkman/candidates/java/25.0.2-graalce,javaVersion=25,javaVendor=GraalVM Community,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=12481,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2g,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=19697, address=[58d3f82c-98f5-4d09-89f5-68156f05366a port:51449, addresses:[/127.0.0.1]], state=Idle, lastBusy=1792574229250, context=DefaultDaemonContext[uid=506cf727-80d6-4019-9d31-2501c8b587ed,javaHome=/Users/lena/.sdkman/candidates/java/25.0.2-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=19697,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/lena/.sdkman/candidates/java/25.0.2-graalce (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=PL, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=506cf727-80d6-4019-9d31-2501c8b587ed,javaHome=/Users/lena/.sdkman/candidates/java/25.0.2-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=19697,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=19793, address=[d7b1fe6c-e833-4753-b2a9-408179c77d8f port:51496, addresses:[/127.0.0.1]], state=Idle, lastBusy=1792574250096, context=DefaultDaemonContext[uid=38186978-99d3-4d66-aa93-302a90d8bd3a,javaHome=/Users/lena/.sdkman/candidates/java/25-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=19793,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=1024m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/lena/.sdkman/candidates/java/25.0.2-graalce (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=PL, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=38186978-99d3-4d66-aa93-302a90d8bd3a,javaHome=/Users/lena/.sdkman/candidates/java/25-amzn,javaVersion=25,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/lena/.gradle/daemon,pid=19793,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=1024m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=PL,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 4091). The daemon log file: /Users/lena/.gradle/daemon/9.7.0/daemon-4091.out.log
+Starting 42nd build in daemon [uptime: 2 hrs 21 mins 21.647 secs, performance: 100%, GC rate: 0.00/s, heap usage: 47% of 512 MiB, non-heap usage: 63% of 384 MiB]
+Using 10 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=false, configurationCacheDisabledReason=null, configurationCacheParallelLoad=false, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, isolatedProjectsDiagnostics=false, isolatedProjectsDangerouslyIgnoreProblems=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=false, vintage=true}
+Now considering [/Users/lena/Downloads/code-with-quarkus, /Users/lena/projects/TUI/customer/customer-account/customer-account-services/profile/profile-batch-files-processor, /Users/lena/projects/TUI/customer/customer-account/customer-account-services/operational-reporting/operational-reporting-etl-processor] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Invalidating in-memory cache of /Users/lena/.gradle/caches/9.7.0/fileHashes/kotlinDslCompileAvoidanceClasspathHashCache.bin
+Invalidating in-memory cache of /Users/lena/.gradle/caches/9.7.0/fileHashes/fileHashes.bin
+Invalidating in-memory cache of /Users/lena/.gradle/caches/9.7.0/fileHashes/KotlinMetadataCompatibilityCache.bin
+Invalidating in-memory cache of /Users/lena/.gradle/caches/9.7.0/fileHashes/resourceHashesCache.bin
+Invalidating in-memory cache of /Users/lena/.gradle/caches/journal-1/file-access.bin
+Settings evaluated using settings file '/Users/lena/Downloads/code-with-quarkus/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Users/lena/Downloads/code-with-quarkus/build.gradle.kts'.
+Included projects: [root project 'code-with-quarkus']
+
+> Configure project :
+Evaluating root project 'code-with-quarkus' using build file '/Users/lena/Downloads/code-with-quarkus/build.gradle.kts'.
+Resolved plugin [id: 'org.gradle.java']
+Resolved plugin [id: 'io.quarkus', version: '3.40.1.1']
+All projects evaluated.
+Task name matched 'quarkusIntTest'
+Selected primary task 'quarkusIntTest' from project :
+Tasks to be executed: [task ':processResources', task ':quarkusGenerateAppModel', task ':quarkusGenerateCode', task ':compileJava', task ':classes', task ':jar', task ':compileQuarkusTestGeneratedSourcesJava', task ':quarkusGenerateTestAppModel', task ':quarkusGenerateCodeTests', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':compileIntegrationTestJava', task ':processIntegrationTestResources', task ':integrationTestClasses', task ':quarkusBuildAppModel', task ':quarkusAppPartsBuild', task ':quarkusDependenciesBuild', task ':quarkusBuild', task ':quarkusIntTest']
+Tasks that were excluded: []
+Resolve mutations for :processResources (Thread[#2334,Execution worker,5,main]) started.
+:processResources (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :processResources UP-TO-DATE
+Caching disabled for task ':processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processResources' as it is up-to-date.
+Resolve mutations for :quarkusGenerateAppModel (Thread[#2334,Execution worker,5,main]) started.
+:quarkusGenerateAppModel (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :quarkusGenerateAppModel UP-TO-DATE
+Caching disabled for task ':quarkusGenerateAppModel' because:
+  Build cache is disabled
+  Not cacheable
+Skipping task ':quarkusGenerateAppModel' as it is up-to-date.
+Resolve mutations for :quarkusGenerateCode (Thread[#2334,Execution worker,5,main]) started.
+:quarkusGenerateCode (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :quarkusGenerateCode UP-TO-DATE
+Caching disabled for task ':quarkusGenerateCode' because:
+  Build cache is disabled
+Skipping task ':quarkusGenerateCode' as it is up-to-date.
+Resolve mutations for :compileJava (Thread[#2334,Execution worker,5,main]) started.
+:compileJava (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :compileJava UP-TO-DATE
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Skipping task ':compileJava' as it is up-to-date.
+Resolve mutations for :classes (Thread[#2334,Execution worker,5,main]) started.
+:classes (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :jar (Thread[#2334,Execution worker,5,main]) started.
+:jar (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :jar UP-TO-DATE
+Caching disabled for task ':jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':jar' as it is up-to-date.
+Resolve mutations for :compileQuarkusTestGeneratedSourcesJava (Thread[#2334,Execution worker,5,main]) started.
+:compileQuarkusTestGeneratedSourcesJava (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :compileQuarkusTestGeneratedSourcesJava NO-SOURCE
+Skipping task ':compileQuarkusTestGeneratedSourcesJava' as it has no source files and no previous output files.
+Resolve mutations for :quarkusGenerateTestAppModel (Thread[#2334,Execution worker,5,main]) started.
+:quarkusGenerateTestAppModel (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :quarkusGenerateTestAppModel UP-TO-DATE
+Caching disabled for task ':quarkusGenerateTestAppModel' because:
+  Build cache is disabled
+  Not cacheable
+Skipping task ':quarkusGenerateTestAppModel' as it is up-to-date.
+Resolve mutations for :quarkusGenerateCodeTests (Thread[#2334,Execution worker,5,main]) started.
+:quarkusGenerateCodeTests (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :quarkusGenerateCodeTests UP-TO-DATE
+Caching disabled for task ':quarkusGenerateCodeTests' because:
+  Build cache is disabled
+Skipping task ':quarkusGenerateCodeTests' as it is up-to-date.
+Resolve mutations for :compileTestJava (Thread[#2334,Execution worker,5,main]) started.
+:compileTestJava (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :compileTestJava UP-TO-DATE
+Caching disabled for task ':compileTestJava' because:
+  Build cache is disabled
+Skipping task ':compileTestJava' as it is up-to-date.
+Resolve mutations for :processTestResources (Thread[#2334,Execution worker,5,main]) started.
+:processTestResources (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :processTestResources NO-SOURCE
+Skipping task ':processTestResources' as it has no source files and no previous output files.
+Resolve mutations for :testClasses (Thread[#2334,Execution worker,5,main]) started.
+:testClasses (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :testClasses UP-TO-DATE
+Skipping task ':testClasses' as it has no actions.
+Resolve mutations for :compileIntegrationTestJava (Thread[#2334,Execution worker,5,main]) started.
+:compileIntegrationTestJava (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :compileIntegrationTestJava UP-TO-DATE
+Caching disabled for task ':compileIntegrationTestJava' because:
+  Build cache is disabled
+  Gradle does not know how file 'build/classes/java/integrationTest/test-classes.idx' was created (output property 'destinationDirectory'). Task output caching requires exclusive access to output paths to guarantee correctness (i.e. multiple tasks are not allowed to produce output in the same location).
+Skipping task ':compileIntegrationTestJava' as it is up-to-date.
+Resolve mutations for :processIntegrationTestResources (Thread[#2334,Execution worker,5,main]) started.
+:processIntegrationTestResources (Thread[#2334,Execution worker,5,main]) started.
+
+> Task :processIntegrationTestResources NO-SOURCE
+Skipping task ':processIntegrationTestResources' as it has no source files and no previous output files.
+Resolve mutations for :integrationTestClasses (Thread[#2334,Execution worker,5,main]) started.
+:integrationTestClasses (Thread[#2337,Execution worker Thread 4,5,main]) started.
+
+> Task :integrationTestClasses UP-TO-DATE
+Skipping task ':integrationTestClasses' as it has no actions.
+Resolve mutations for :quarkusBuildAppModel (Thread[#2341,Execution worker Thread 8,5,main]) started.
+:quarkusBuildAppModel (Thread[#2341,Execution worker Thread 8,5,main]) started.
+
+> Task :quarkusBuildAppModel UP-TO-DATE
+Caching disabled for task ':quarkusBuildAppModel' because:
+  Build cache is disabled
+  Not cacheable
+Skipping task ':quarkusBuildAppModel' as it is up-to-date.
+Resolve mutations for :quarkusAppPartsBuild (Thread[#2341,Execution worker Thread 8,5,main]) started.
+:quarkusAppPartsBuild (Thread[#2341,Execution worker Thread 8,5,main]) started.
+
+> Task :quarkusAppPartsBuild UP-TO-DATE
+Caching disabled for task ':quarkusAppPartsBuild' because:
+  Build cache is disabled
+Skipping task ':quarkusAppPartsBuild' as it is up-to-date.
+Resolve mutations for :quarkusDependenciesBuild (Thread[#2341,Execution worker Thread 8,5,main]) started.
+:quarkusDependenciesBuild (Thread[#2341,Execution worker Thread 8,5,main]) started.
+
+> Task :quarkusDependenciesBuild UP-TO-DATE
+Caching disabled for task ':quarkusDependenciesBuild' because:
+  Build cache is disabled
+  Not cacheable
+Skipping task ':quarkusDependenciesBuild' as it is up-to-date.
+Resolve mutations for :quarkusBuild (Thread[#2341,Execution worker Thread 8,5,main]) started.
+:quarkusBuild (Thread[#2341,Execution worker Thread 8,5,main]) started.
+
+> Task :quarkusBuild UP-TO-DATE
+Caching disabled for task ':quarkusBuild' because:
+  Build cache is disabled
+Skipping task ':quarkusBuild' as it is up-to-date.
+Resolve mutations for :quarkusIntTest (Thread[#2341,Execution worker Thread 8,5,main]) started.
+:quarkusIntTest (Thread[#2341,Execution worker Thread 8,5,main]) started.
+Gradle Test Executor 47 started executing tests.
+Loading JUnit Platform configuration parameters from classpath resource [jar:file:/Users/lena/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-junit/3.40.1.1/cb80593c209156dcad61b0203394ca445f23fccb/quarkus-junit-3.40.1.1.jar!/junit-platform.properties].
+Loaded LauncherSessionListener instances: [io.quarkus.test.junit.launcher.CustomLauncherInterceptor@169e6180, io.quarkus.test.config.ConfigLauncherSession@35aea049]
+Discovered TestEngines:
+- junit-jupiter (group ID: org.junit.jupiter, artifact ID: junit-jupiter-engine, version: 6.1.3, location: jar:file:/Users/lena/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/6.1.3/3778a548f15693db463c3d090b419c64b486b848/junit-jupiter-engine-6.1.3.jar!/org/junit/jupiter/engine/JupiterTestEngine.class)
+Loaded PostDiscoveryFilter instances: []
+Loaded LauncherDiscoveryListener instances: [io.quarkus.test.junit.launcher.CustomLauncherInterceptor@3012646b]
+Loaded TestExecutionListener instances: [io.quarkus.test.junit.launcher.ExecutionListener@1e6a3214, io.quarkus.test.junit.launcher.CustomLauncherInterceptor@368247b9, org.junit.platform.launcher.listeners.UniqueIdTrackingListener@1a6d8329] (excluded classes: [])
+Loading JUnit Platform configuration parameters from classpath resource [jar:file:/Users/lena/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-junit/3.40.1.1/cb80593c209156dcad61b0203394ca445f23fccb/quarkus-junit-3.40.1.1.jar!/junit-platform.properties].
+Using default class orderer 'io.quarkus.test.junit.util.QuarkusTestProfileAwareClassOrderer' set via the 'junit.jupiter.testclass.order.default' configuration parameter.
+Testcontainers version: 2.0.5
+Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+Image pull policy will be performed by: DefaultPullPolicy()
+Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of ConfigurationFileImageNameSubstitutor and PrefixingImageNameSubstitutor)
+Docker host IP address is localhost
+Connected to docker: 
+  Server Version: 29.6.1
+  API Version: 1.55
+  Operating System: Docker Desktop
+  Total Memory: 7936 MB
+  Labels: 
+    com.docker.desktop.address=unix:///Users/lena/Library/Containers/com.docker.docker/Data/docker-cli.sock
+Checking the system...
+✔︎ Docker server version should be at least 1.6.0
+Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+Creating container for image: localstack/localstack:4.13
+Mock Lambda Event Server Started
+The amazon-lambda dev service is ready to accept connections on localhost:8081/_lambda_
+Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+Creating container for image: testcontainers/ryuk:0.14.0
+Container testcontainers/ryuk:0.14.0 is starting: aa996bb92ad61bcb2c6e21ba51cab30f9448d70194857d002a59320d1d1db980
+Container testcontainers/ryuk:0.14.0 started in PT0.223465S
+Container localstack/localstack:4.13 is starting: dca4dc8b44bcd240ebc422d3b9618bda16d8b7ce894d593c7bd89dfec5b3aee9
+
+> Task :quarkusIntTest
+Custom actions are attached to task ':quarkusIntTest'.
+Caching disabled for task ':quarkusIntTest' because:
+  Build cache is disabled
+Task ':quarkusIntTest' is not up-to-date because:
+  Task has failed previously.
+Starting process 'Gradle Test Executor 47'. Working directory: /Users/lena/Downloads/code-with-quarkus Command: /Users/lena/.sdkman/candidates/java/25.0.2-graalce/bin/java -DOUTPUT_SOURCES_DIR=/Users/lena/Downloads/code-with-quarkus/build/classes/java/main,/Users/lena/Downloads/code-with-quarkus/build/classes/java/test -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Dnative.image.path=/Users/lena/Downloads/code-with-quarkus/build/code-with-quarkus-1.0.0-SNAPSHOT-runner -Dorg.gradle.internal.worker.tmpdir=/Users/lena/Downloads/code-with-quarkus/build/tmp/quarkusIntTest/work -Dplatform.quarkus.native.builder-image=mandrel -Dquarkus-internal-test.serialized-app-model.path=/Users/lena/Downloads/code-with-quarkus/build/quarkus/application-model/quarkus-app-test-model.dat -Dquarkus.application.name=code-with-quarkus -Dquarkus.application.version=1.0.0-SNAPSHOT -Dquarkus.native.enabled=true -Dquarkus.package.jar.enabled=false -Dquarkus.profile=prod --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-exports=java.base/jdk.internal.module=ALL-UNNAMED @/Users/lena/.gradle/.tmp/gradle-worker-classpath13465248790136777147txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=PL -Duser.language=en -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 47'
+Successfully started process 'Gradle Test Executor 47'
+
+LambdaHandlerTestIT STANDARD_OUT
+    2026-10-21 12:15:19,836 INFO  [org.testcontainers.DockerClientFactory] (build-12) Testcontainers version: 2.0.5
+    2026-10-21 12:15:19,924 INFO  [org.testcontainers.dockerclient.DockerClientProviderStrategy] (build-12) Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+    2026-10-21 12:15:20,093 INFO  [org.testcontainers.dockerclient.DockerClientProviderStrategy] (build-12) Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+    2026-10-21 12:15:20,100 INFO  [org.testcontainers.images.PullPolicy] (ForkJoinPool.commonPool-worker-2) Image pull policy will be performed by: DefaultPullPolicy()
+    2026-10-21 12:15:20,101 INFO  [org.testcontainers.utility.ImageNameSubstitutor] (ForkJoinPool.commonPool-worker-2) Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+    2026-10-21 12:15:20,105 INFO  [org.testcontainers.DockerClientFactory] (ForkJoinPool.commonPool-worker-2) Docker host IP address is localhost
+    2026-10-21 12:15:20,116 INFO  [org.testcontainers.DockerClientFactory] (ForkJoinPool.commonPool-worker-2) Connected to docker: 
+      Server Version: 29.6.1
+      API Version: 1.55
+      Operating System: Docker Desktop
+      Total Memory: 7936 MB
+      Labels: 
+        com.docker.desktop.address=unix:///Users/lena/Library/Containers/com.docker.docker/Data/docker-cli.sock
+    2026-10-21 12:15:20,118 INFO  [org.testcontainers.DockerClientFactory] (ForkJoinPool.commonPool-worker-2) Checking the system...
+    2026-10-21 12:15:20,118 INFO  [org.testcontainers.DockerClientFactory] (ForkJoinPool.commonPool-worker-2) ✔︎ Docker server version should be at least 1.6.0
+    2026-10-21 12:15:20,161 WARN  [io.netty.resolver.dns.DnsServerAddressStreamProviders] (ForkJoinPool.commonPool-worker-1) Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+    2026-10-21 12:15:20,215 INFO  [tc.localstack/localstack:4.13] (ForkJoinPool.commonPool-worker-2) Creating container for image: localstack/localstack:4.13
+    2026-10-21 12:15:20,216 INFO  [io.quarkus.amazon.lambda.runtime.MockEventServer] (ForkJoinPool.commonPool-worker-1) Mock Lambda Event Server Started
+    2026-10-21 12:15:20,217 INFO  [io.quarkus.deployment.builditem.DevServicesRegistryBuildItem] (ForkJoinPool.commonPool-worker-1) The amazon-lambda dev service is ready to accept connections on localhost:8081/_lambda_
+    2026-10-21 12:15:20,338 INFO  [org.testcontainers.utility.RegistryAuthLocator] (ForkJoinPool.commonPool-worker-2) Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+    2026-10-21 12:15:20,341 INFO  [tc.testcontainers/ryuk:0.14.0] (ForkJoinPool.commonPool-worker-2) Creating container for image: testcontainers/ryuk:0.14.0
+    2026-10-21 12:15:20,393 INFO  [tc.testcontainers/ryuk:0.14.0] (ForkJoinPool.commonPool-worker-2) Container testcontainers/ryuk:0.14.0 is starting: aa996bb92ad61bcb2c6e21ba51cab30f9448d70194857d002a59320d1d1db980
+    2026-10-21 12:15:20,564 INFO  [tc.testcontainers/ryuk:0.14.0] (ForkJoinPool.commonPool-worker-2) Container testcontainers/ryuk:0.14.0 started in PT0.223465S
+    2026-10-21 12:15:20,842 INFO  [tc.localstack/localstack:4.13] (ForkJoinPool.commonPool-worker-2) Container localstack/localstack:4.13 is starting: dca4dc8b44bcd240ebc422d3b9618bda16d8b7ce894d593c7bd89dfec5b3aee9
+
+Container localstack/localstack:4.13 started in PT4.880272S
+Dev Services (amazon-localstack) for Amazon Services started for services: s3. Other Quarkus applications in dev mode will find the stack automatically. You can connect to the stack at http://127.0.0.1:52793.
+
+> Task :quarkusIntTest
+    2026-10-21 12:15:25,096 INFO  [tc.localstack/localstack:4.13] (ForkJoinPool.commonPool-worker-2) Container localstack/localstack:4.13 started in PT4.880272S
+    2026-10-21 12:15:25,100 INFO  [io.quarkiverse.amazon.common.deployment.devservices.AbstractDevServicesAwsStackProcessor] (ForkJoinPool.commonPool-worker-2) Dev Services (amazon-localstack) for Amazon Services started for services: s3. Other Quarkus applications in dev mode will find the stack automatically. You can connect to the stack at http://127.0.0.1:52793.
+    Executing "/Users/lena/Downloads/code-with-quarkus/build/code-with-quarkus-1.0.0-SNAPSHOT-runner -Dquarkus.log.file.path=/Users/lena/Downloads/code-with-quarkus/build/quarkus.log -Dquarkus.log.file.enabled=true -Dquarkus.log.category."io.quarkus".level=INFO -Dquarkus.profile=prod -Dquarkus.s3.aws.credentials.type=static -Dquarkus-internal.aws-lambda.test-api=localhost:8081/_lambda_ -Dquarkus.lambda.mock-event-server.test-port=8081 -Dquarkus.s3.path-style-access=true -Dquarkus.package.jar.enabled=false -Dquarkus.s3.aws.region=us-east-1 -Dquarkus.s3.aws.credentials.static-provider.access-key-id=test -Dquarkus.native.enabled=true -Dquarkus.application.version=1.0.0-SNAPSHOT -Dquarkus.s3.endpoint-override=http://127.0.0.1:52793 -Dquarkus.application.name=code-with-quarkus -Dquarkus.s3.aws.credentials.static-provider.secret-access-key=test"
+    __  ____  __  _____   ___  __ ____  ______ 
+     --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+     -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+    --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+    2026-10-21 12:15:25,588 INFO  [io.quarkus] (main) code-with-quarkus 1.0.0-SNAPSHOT native (powered by Quarkus 3.40.1.1) started in 0.064s. 
+    2026-10-21 12:15:25,591 INFO  [io.quarkus] (main) Profile prod activated. 
+    2026-10-21 12:15:25,591 INFO  [io.quarkus] (main) Installed features: [amazon-lambda, amazon-sdk-s3, cdi]
+    2026-10-21 12:15:25,592 INFO  [io.quarkus.amazon.lambda.runtime.AbstractLambdaPollLoop] (Lambda Thread (NORMAL)) Listening on: http://localhost:8081/_lambda_/2018-06-01/runtime/invocation/next
+
+LambdaHandlerTestIT > testSimpleLambdaSuccess() STANDARD_OUT
+    2026-10-21 12:15:26,263 ERROR [io.quarkus.amazon.lambda.runtime.AbstractLambdaPollLoop] (Lambda Thread (NORMAL)) Failed to run lambda (NORMAL): jakarta.enterprise.inject.CreationException: Error creating synthetic bean [AJJRdIXhrwPQ5pyWIbuMF8Mf2II]: software.amazon.awssdk.crt.CrtRuntimeException: Failed to load AWS CRT native library
+    	at software.amazon.awssdk.services.s3.S3Client_AJJRdIXhrwPQ5pyWIbuMF8Mf2II_Synthetic_Bean.create(Unknown Source)
+    	at software.amazon.awssdk.services.s3.S3Client_AJJRdIXhrwPQ5pyWIbuMF8Mf2II_Synthetic_Bean.create(Unknown Source)
+    	at io.quarkus.arc.impl.AbstractSharedContext.createInstanceHandle(AbstractSharedContext.java:119)
+    	at io.quarkus.arc.impl.AbstractSharedContext$1.get(AbstractSharedContext.java:38)
+    	at io.quarkus.arc.impl.AbstractSharedContext$1.get(AbstractSharedContext.java:35)
+    	at io.quarkus.arc.generator.Default_jakarta_enterprise_context_ApplicationScoped_ContextInstances.ch0(Unknown Source)
+    	at io.quarkus.arc.generator.Default_jakarta_enterprise_context_ApplicationScoped_ContextInstances.computeIfAbsent(Unknown Source)
+    	at io.quarkus.arc.impl.AbstractSharedContext.get(AbstractSharedContext.java:35)
+    	at io.quarkus.arc.impl.ClientProxies.getApplicationScopedDelegate(ClientProxies.java:23)
+    	at software.amazon.awssdk.services.s3.S3Client_AJJRdIXhrwPQ5pyWIbuMF8Mf2II_Synthetic_ClientProxy.arc$delegate(Unknown Source)
+    	at software.amazon.awssdk.services.s3.S3Client_AJJRdIXhrwPQ5pyWIbuMF8Mf2II_Synthetic_ClientProxy.putObject(Unknown Source)
+    	at org.acme.lambda.GreetingLambda.handleRequest(GreetingLambda.java:31)
+    	at org.acme.lambda.GreetingLambda.handleRequest(GreetingLambda.java:16)
+    	at io.quarkus.amazon.lambda.runtime.AmazonLambdaRecorder$1.processRequest(AmazonLambdaRecorder.java:168)
+    	at io.quarkus.amazon.lambda.runtime.AbstractLambdaPollLoop$1.run(AbstractLambdaPollLoop.java:149)
+    	at java.base@25.0.2/java.lang.Thread.runWith(Thread.java:1487)
+    	at java.base@25.0.2/java.lang.Thread.run(Thread.java:1474)
+    	at org.graalvm.nativeimage.builder/com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:832)
+    	at org.graalvm.nativeimage.builder/com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:808)
+    Caused by: software.amazon.awssdk.crt.CrtRuntimeException: Failed to load AWS CRT native library
+    	at software.amazon.awssdk.crt.CRT.checkLoaded(CRT.java:98)
+    	at software.amazon.awssdk.crt.CrtResource.<init>(CrtResource.java:113)
+    	at software.amazon.awssdk.crt.io.ClientBootstrap.<init>(ClientBootstrap.java:40)
+    	at software.amazon.awssdk.http.crt.AwsCrtHttpClientBase.<init>(AwsCrtHttpClientBase.java:112)
+    	at software.amazon.awssdk.http.crt.AwsCrtHttpClient.<init>(AwsCrtHttpClient.java:59)
+    	at software.amazon.awssdk.http.crt.AwsCrtHttpClient.<init>(AwsCrtHttpClient.java:56)
+    	at software.amazon.awssdk.http.crt.AwsCrtHttpClient$DefaultBuilder.buildWithDefaults(AwsCrtHttpClient.java:374)
+    	at software.amazon.awssdk.http.crt.AwsCrtHttpClient$DefaultBuilder.buildWithDefaults(AwsCrtHttpClient.java:358)
+    	at software.amazon.awssdk.core.client.builder.SdkDefaultClientBuilder.lambda$resolveSyncHttpClient$16(SdkDefaultClientBuilder.java:479)
+    	at java.base@25.0.2/java.util.Optional.map(Optional.java:260)
+    	at software.amazon.awssdk.utils.Either.lambda$map$0(Either.java:51)
+    	at java.base@25.0.2/java.util.Optional.orElseGet(Optional.java:364)
+    	at software.amazon.awssdk.utils.Either.map(Either.java:51)
+    	at software.amazon.awssdk.core.client.builder.SdkDefaultClientBuilder.lambda$resolveSyncHttpClient$17(SdkDefaultClientBuilder.java:479)
+    	at java.base@25.0.2/java.util.Optional.map(Optional.java:260)
+    	at software.amazon.awssdk.core.client.builder.SdkDefaultClientBuilder.resolveSyncHttpClient(SdkDefaultClientBuilder.java:479)
+    	at software.amazon.awssdk.core.client.builder.SdkDefaultClientBuilder.lambda$finalizeSyncConfiguration$5(SdkDefaultClientBuilder.java:316)
+    	at software.amazon.awssdk.utils.AttributeMap$DerivedValue.primeCache(AttributeMap.java:604)
+    	at software.amazon.awssdk.utils.AttributeMap$DerivedValue.get(AttributeMap.java:593)
+    	at software.amazon.awssdk.utils.AttributeMap$Builder.resolveValue(AttributeMap.java:400)
+    	at java.base@25.0.2/java.util.ArrayList.forEach(ArrayList.java:1604)
+    	at software.amazon.awssdk.utils.AttributeMap$Builder.build(AttributeMap.java:362)
+    	at software.amazon.awssdk.core.client.config.SdkClientConfiguration$Builder.build(SdkClientConfiguration.java:224)
+    	at software.amazon.awssdk.core.client.builder.SdkDefaultClientBuilder.finalizeSyncConfiguration(SdkDefaultClientBuilder.java:318)
+    	at software.amazon.awssdk.core.client.builder.SdkDefaultClientBuilder.syncClientConfiguration(SdkDefaultClientBuilder.java:207)
+    	at software.amazon.awssdk.services.s3.DefaultS3ClientBuilder.buildClient(DefaultS3ClientBuilder.java:37)
+    	at software.amazon.awssdk.services.s3.DefaultS3ClientBuilder.buildClient(DefaultS3ClientBuilder.java:26)
+    	at software.amazon.awssdk.core.client.builder.SdkDefaultClientBuilder.build(SdkDefaultClientBuilder.java:173)
+    	at software.amazon.awssdk.services.s3.S3ClientBuilder_ZCgyr3IbKiWLmBUUdITrJP1JS_I_Synthetic_ClientProxy.build(Unknown Source)
+    	at io.quarkiverse.amazon.common.runtime.AmazonClientCommonRecorder$1.apply(AmazonClientCommonRecorder.java:184)
+    	at io.quarkiverse.amazon.common.runtime.AmazonClientCommonRecorder$1.apply(AmazonClientCommonRecorder.java:173)
+    	at software.amazon.awssdk.services.s3.S3Client_AJJRdIXhrwPQ5pyWIbuMF8Mf2II_Synthetic_Bean.createSynthetic(Unknown Source)
+    	... 19 more
+    Caused by: software.amazon.awssdk.crt.CrtRuntimeException: Failed to load 'libaws-crt-jni.dylib'. Make sure this file is in the same directory as the GraalVM native image. 
+    	at software.amazon.awssdk.crt.CRT.<clinit>(CRT.java:53)
+    	at software.amazon.awssdk.crt.CrtResource.<clinit>(CrtResource.java:104)
+    	at java.base@25.0.2/java.lang.Class.ensureInitialized(DynamicHub.java:778)
+    	... 48 more
+
+    Request method:	POST
+    Request URI:	http://localhost:8081/
+    Proxy:			<none>
+    Request params:	<none>
+    Query params:	<none>
+    Form params:	<none>
+    Path params:	<none>
+    Headers:		Accept=application/json
+    				Content-Type=application/json
+    Cookies:		<none>
+    Multiparts:		<none>
+    Body:
+    {
+        "name": "LALA"
+    }
+
+    HTTP/1.1 500 Internal Server Error
+    Content-Type: application/json
+    content-length: 223
+
+    {
+        "errorType": "jakarta.enterprise.inject.CreationException",
+        "errorMessage": "Error creating synthetic bean [AJJRdIXhrwPQ5pyWIbuMF8Mf2II]: software.amazon.awssdk.crt.CrtRuntimeException: Failed to load AWS CRT native library"
+    }
+
+Stopping Mock Lambda Event Server
+Gradle Test Executor 47 finished executing tests.
+
+> Task :quarkusIntTest FAILED
+    2026-10-21 12:15:26,597 INFO  [io.quarkus.amazon.lambda.runtime.MockEventServer] (Test worker) Stopping Mock Lambda Event Server
+
+LambdaHandlerTestIT > testSimpleLambdaSuccess() FAILED
+    java.lang.AssertionError: 1 expectation failed.
+    Expected status code <200> but was <500>.
+        at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+        at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+        at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+        at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+        at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+        at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
+        at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+        at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
+        at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+        at org.acme.lambda.LambdaHandlerTest.testSimpleLambdaSuccess(LambdaHandlerTest.java:27)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+        at io.quarkus.test.junit.QuarkusTestExtension.interceptTestMethod(QuarkusTestExtension.java:841)
+        at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+        at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+1 test completed, 1 failed
+Generating HTML test report...
+Finished generating test html results (0.001 secs) into: /Users/lena/Downloads/code-with-quarkus/build/reports/tests/quarkusIntTest
+Finished generating test XML results (0.0 secs) into: /Users/lena/Downloads/code-with-quarkus/build/test-results/quarkusIntTest
+
+[Incubating] Problems report is available at: file:///Users/lena/Downloads/code-with-quarkus/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':quarkusIntTest'.
+> There were failing tests. See the report at: file:///Users/lena/Downloads/code-with-quarkus/build/reports/tests/quarkusIntTest/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.7.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 8s
+14 actionable tasks: 1 executed, 13 up-to-date
+Watched directory hierarchies: [/Users/lena/Downloads/code-with-quarkus, /Users/lena/projects/TUI/customer/customer-account/customer-account-services/profile/profile-batch-files-processor, /Users/lena/projects/TUI/customer/customer-account/customer-account-services/operational-reporting/operational-reporting-etl-processor]
